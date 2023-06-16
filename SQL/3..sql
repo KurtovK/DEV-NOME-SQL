@@ -1,3 +1,5 @@
+#Задание 1
+#Создайте следующие запросыдля базыданных с оценками студентов из предыдущего практического задания:
 SELECT full_name, DATE('now') - birth_date AS age
 FROM students
 ORDER BY age DESC;
